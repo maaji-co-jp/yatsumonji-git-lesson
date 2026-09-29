@@ -12,7 +12,16 @@
     <header class="header">
       <div class="container header__inner">
         <a class="header__logo" href="#top">Taro Yamada</a>
-        <nav class="nav" aria-label="メインナビゲーション">
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-controls="global-nav"
+          aria-expanded="false"
+          aria-label="メニューを開く"
+        >
+          <span class="nav-toggle__bar"></span>
+        </button>
+        <nav class="nav" id="global-nav" aria-label="メインナビゲーション">
           <ul class="nav__list">
             <li><a class="nav__link" href="#about">About</a></li>
             <li><a class="nav__link" href="#skills">Skills</a></li>
