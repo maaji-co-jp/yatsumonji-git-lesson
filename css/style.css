@@ -565,3 +565,18 @@ a {
   color: var(--color-accent);
   font-weight: 700;
 }
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: var(--space);
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background: var(--color-accent);
+  color: #fff;
+}
+
+.skip-link:focus {
+  top: var(--space);
+}
