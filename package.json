@@ -1,0 +1,13 @@
+{
+  "name": "profile-site",
+  "version": "1.0.0",
+  "description": "自己紹介用のサンプルサイトです（HTML / CSS / JavaScript のみ）。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
