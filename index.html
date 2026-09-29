@@ -171,6 +171,50 @@
           </ol>
         </div>
       </section>
+      <section class="section" id="contact">
+        <div class="container">
+          <h2 class="section__title">Contact</h2>
+          <p class="contact__lead">お仕事のご相談・ご感想など、お気軽にどうぞ。</p>
+          <form class="contact-form" novalidate>
+            <div class="field">
+              <label class="field__label" for="name">お名前</label>
+              <input
+                class="field__input"
+                id="name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                required
+              />
+              <p class="field__error" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label class="field__label" for="email">メールアドレス</label>
+              <input
+                class="field__input"
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                required
+              />
+              <p class="field__error" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label class="field__label" for="message">メッセージ</label>
+              <textarea
+                class="field__input"
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+              <p class="field__error" aria-live="polite"></p>
+            </div>
+            <button class="button" type="submit">送信する</button>
+          </form>
+        </div>
+      </section>
     </main>
   </body>
 </html>
