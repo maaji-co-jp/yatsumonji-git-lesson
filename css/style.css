@@ -169,3 +169,35 @@ a {
 .button:hover {
   opacity: 0.85;
 }
+
+.about {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: calc(var(--space) * 3);
+}
+
+.about__body p {
+  margin: 0 0 1rem;
+}
+
+.about__facts {
+  margin: 0;
+  padding: calc(var(--space) * 1.5);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+}
+
+.about__fact + .about__fact {
+  margin-top: 1rem;
+}
+
+.about__fact dt {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+}
+
+.about__fact dd {
+  margin: 0;
+  font-weight: 700;
+}
