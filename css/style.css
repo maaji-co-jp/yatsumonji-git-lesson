@@ -201,3 +201,40 @@ a {
   margin: 0;
   font-weight: 700;
 }
+
+.section--alt {
+  background: var(--color-surface);
+  border-block: 1px solid var(--color-border);
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: calc(var(--space) * 1.5) calc(var(--space) * 3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skill__name {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.skill__bar {
+  display: block;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--color-border);
+  overflow: hidden;
+}
+
+.skill__bar > span {
+  display: block;
+  width: var(--level);
+  height: 100%;
+  border-radius: inherit;
+  background: var(--color-accent);
+}
