@@ -417,3 +417,31 @@ a {
 .footer__links a:hover {
   color: var(--color-accent);
 }
+
+@media (max-width: 768px) {
+  .section {
+    padding-block: calc(var(--space) * 3.5);
+  }
+
+  .hero {
+    padding-block: calc(var(--space) * 3);
+  }
+
+  .hero__inner {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .hero__avatar {
+    width: 120px;
+    font-size: 2rem;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+  }
+}
