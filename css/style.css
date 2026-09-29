@@ -12,6 +12,17 @@
   --header-height: 64px;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #16181d;
+    --color-surface: #1e2128;
+    --color-text: #e6e8eb;
+    --color-muted: #9aa1ad;
+    --color-accent: #ff8a4c;
+    --color-border: #2e323b;
+  }
+}
+
 *,
 *::before,
 *::after {
