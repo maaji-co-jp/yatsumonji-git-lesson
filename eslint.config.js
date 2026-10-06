@@ -1,6 +1,6 @@
 import js from '@eslint/js';
 import globals from 'globals';
-
+// こんにちは
 export default [
   { ignores: ['node_modules/'] },
   js.configs.recommended,
