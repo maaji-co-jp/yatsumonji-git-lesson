@@ -1,7 +1,7 @@
 {
   "name": "profile-site",
   "version": "1.0.0",
-  "description": "自己紹介用のサンプルサイト",
+  "description": "えばた",
   "scripts": {
     "dev": "http-server . -p 8080 -c-1",
     "lint": "eslint .",
